@@ -4,6 +4,9 @@
 a {
     cursor: pointer;
 }
+h1, h2, h3, h4 {
+    font-family: 'Caveat', cursive;
+}
 
 /*Navbar*/
 .my-navbar {
@@ -46,9 +49,8 @@ a {
     justify-content: center;
 }
 #start-section .title-container {
-    margin: 200px 0 0 auto; 
+    margin: 200px 6px 0 auto; 
     text-align: right;
-    font-family: 'Crafty Girls', cursive;
     font-weight: 700;
     color: #212529;
 }
@@ -56,7 +58,7 @@ a {
     font-size: 2em;
 }
 #start-section .img-container {
-    margin: 200px auto 0 0;
+    margin: 200px auto 0 6px;
     width: 200px;
 }
 #start-section img {
