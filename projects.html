@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Start</title>
+    <title>Projekt</title>
     <link rel="shortcut icon" href="bilder/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -13,7 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <nav class="navbar navbar-expand-md bg-dark navbar-dark my-navbar fixed-top">
         <a class="navbar-brand my-logo" href="index.html"><img src="bilder/litenlogo.png" alt="logotyp"></a>
@@ -25,35 +25,50 @@
                 <li class="navbar-item"><a class="navbar-link" href="cv.html">CV</a></li>
                 <li class="navbar-item"><a class="navbar-link" href="projects.html">PROJEKT</a></li>
                 <li class="navbar-item"><a class="navbar-link" href="contact.html">KONTAKT</a></li>
-
             </ul>
         </div>
     </nav>
 
-    <div class="container-fluid my-container" id="start-section">
-        
-        <div class="row" id="start-row">
-            <div class="col-12 col-sm-6">
-                <div class="title-container">
-                    <h1><span>Rosi</span> Drott</h1>
-                    <h1>Kohmareh</h1>
-                    <h4>Studerar till</h4>
-                    <h4>JavaScript-utvecklare</h4>
+    <div class="container-fluid my-container" id="project-section">
+        <div class="row project-row">
+            <div class="col-12 project-col">
+                <h1>Projekt</h1>
+                <div class="project-wrapper">
+                    <div class="project-box">
+                        <h3>Movie shop</h3>
+                        <p>React applikation</p>
+                        <a href="https://drutten.github.io/movieshop/" target="_blank"><span title="Se projektet på GitHub Pages">&#128065;</span></a>
+                    </div>
+                    <div class="project-box">
+                        <h3>Favorite Movies</h3>
+                        <p>JavaScript</p>
+                        <a href="https://drutten.github.io/moviesJs/" target="_blank"><span title="Se projektet på GitHub Pages">&#128065;</span></a>
+                    </div>
+                    <div class="project-box">
+                        <h3>Dice</h3>
+                        <p>3D-animerad tärning</p>
+                        <a href="https://drutten.github.io/Dice/" target="_blank"><span title="Se projektet på GitHub Pages">&#128065;</span></a>
+                    </div>
+                    <div class="project-box">
+                        <h3>Todolist</h3>
+                        <p>React</p>
+                        <a href="https://drutten.github.io/todolist/" target="_blank"><span title="Se projektet på GitHub Pages">&#128065;</span></a>
+                    </div>
+                    <div class="project-box">
+                        <h3>Klockan</h3>
+                        <p>Kortspel JavaScript</p>
+                        <a href="https://drutten.github.io/Klockan/" target="_blank"><span title="Se projektet på GitHub Pages">&#128065;</span> </a>
+                    </div>
+                    
                 </div>
             </div>
-            <div class="col-12 col-sm-6">
-                <div class="img-container"><img src="bilder/profilCv.png" alt="porträttbild"></div>
-            </div>       
         </div>
-
     </div>
-
-
 
     <!-- Footer -->
     <footer class="container-fluid">
         <div class="row footer-row-1">
-            <div class="col-12 col-sm-6 col-md-4 col-menu">
+            <div class="col-sm col-menu">
 
                 <h4>Länkar</h4>
                 
@@ -65,8 +80,8 @@
                 </ul>
 
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-logo"><img src="bilder/litenlogo.png" alt="logotyp"></div>
-            <div class="col-12 col-sm-6 col-md-4 col-footer-contact">
+            <div class="col-sm col-logo"><img src="bilder/litenlogo.png" alt="logotyp"></div>
+            <div class="col-sm col-footer-contact">
                 <h4>Kontakt</h4>
                 <p>Telefon: 0736693950</p>
                 <p>E-post: rosi.drott@gmail.com</p>
