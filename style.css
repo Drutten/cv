@@ -395,6 +395,7 @@ footer .copyr-col p {
     
     footer .icon-col {
         justify-content: center;
+        margin: 0;
     }
     footer .copyr-col {
         justify-content: center;
